@@ -110,8 +110,8 @@ public class User implements UserDetails {
         this.username = name;
     }
 
-    public void setPassword(String birthYear) {
-        this.password = birthYear;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public void setEmail(String email) {
